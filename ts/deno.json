@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "create": "deno run scripts/create.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@std/cli": "jsr:@std/cli@^1.0.7",
+    "@std/path": "jsr:@std/path@^1.0.8",
+    "lodash": "npm:lodash@^4.17.21",
+    "zod": "npm:zod@^3.23.8"
+  }
+}
